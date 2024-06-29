@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+padding: 0;
+}
+div{
+    
+    width: 100px;
+    border: 2px solid black;
+    overflow:hidden;
+
+}
+.contnainer{
+     border: 10px solid grey;
+     width: 50%;
+     height: 60%;
+     display:flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     gap:10px;
+     margin: 15px 10px 100px 200px;
+     padding: 50px 50px 100px 50px;
+     background:linear-gradient(to left,#6482ad  ,#395f9e);
+}
+.set:hover{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: transparent;
+    background-color: transparent;
+    /* background-color: #6482ad; */
+}
